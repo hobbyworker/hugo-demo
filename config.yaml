@@ -98,6 +98,10 @@ languages:
                   url: fatags
                   weight: 10
 
+caches:
+    images:
+        dir: :cacheDir/images
+
 outputs:
     home:
         - HTML
