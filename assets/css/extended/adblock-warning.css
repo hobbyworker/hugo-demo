@@ -1,0 +1,42 @@
+/* PaperMod bundles every file in assets/css/extended/ into its main stylesheet. */
+.adblock-warning {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  z-index: 100;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-left: 4px solid #d9534f;
+  border-radius: var(--radius);
+  background: var(--entry);
+  color: var(--primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* The display: flex above would otherwise override the hidden attribute. */
+.adblock-warning[hidden] {
+  display: none;
+}
+
+.adblock-warning p {
+  flex: 1;
+  margin: 0;
+}
+
+.adblock-warning-close {
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: var(--secondary);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
