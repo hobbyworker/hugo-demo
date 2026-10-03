@@ -20,7 +20,7 @@ The `main` branch is the 2026 version. The code used in the 2023 posts is at the
 ### Hugo Blog 2026
 
 - [Hugo Blog 2026 (1): Deploying to GitHub Pages with GitHub Actions](https://hobbyworker.me/en/dev/2026-10-03-hugo-blog-2026-1-deploy-to-github-pages-with-github-actions/)
-- [Hugo Blog 2026 (2): Adding Ad Blocker Detection to PaperMod](https://hobbyworker.me/en/dev/2026-10-05-hugo-blog-2026-2-adblocker-detection-for-papermod/) (published on 2026-10-05)
+- [Hugo Blog 2026 (2): Adding Ad Blocker Detection to PaperMod](https://hobbyworker.me/en/dev/2026-10-04-hugo-blog-2026-2-adblocker-detection-for-papermod/) (published on 2026-10-04)
 
 ### 2023 (code at `v2023`)
 
