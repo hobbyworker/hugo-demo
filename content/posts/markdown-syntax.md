@@ -141,10 +141,6 @@ This is pre text
 </html>
 {{< /highlight >}}
 
-#### Gist
-
-{{< gist spf13 7896402 >}}
-
 ## List Types
 
 #### Ordered List
